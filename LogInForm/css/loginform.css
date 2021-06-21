@@ -1,0 +1,115 @@
+
+
+body {
+  background: url("orangeblackbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+img { 
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  position: absolute;
+  top: 5%;
+  left: 39%;
+  
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  width: 285px;
+  margin: -140px 0 0 -182px;
+  padding: 40px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.form h2 {
+  margin: 0 0 20px;
+  line-height: 1;
+  color:orange;
+  font-family: "Franklin Gothic Medium";
+  font-size: 18px;
+  font-weight: 400;
+}
+.form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-family: "Franklin Gothic Medium";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.form input:focus {
+  color: orange;
+  border: 1px solid orange;
+}
+.form button {
+  cursor: pointer;
+  background: orange;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  color: #fff;
+  font-family: "Franklin Gothic Medium";
+  font-size: 14px;
+  font-weight: 400;
+
+}
+.form button:hover {
+  background: orange;
+}
+.form p.remember_me {
+  float: left;
+  line-height: 10px;
+}
+
+.form p.remember_me label {
+  font-family: "Franklin Gothic Medium";
+  font-size: 12px;
+  color: orange;
+  cursor: pointer;
+}
+
+.form p.remember_me input {
+  position: relative;
+  bottom: -32px;
+  margin-left: -93px;
+  vertical-align: left;
+}
+.login-help {
+  margin: 600px ;
+  font-family: "Franklin Gothic Medium";
+  font-size: 14px;
+  color: orange;
+  text-align: center;
+  text-shadow: 0 1px #2a85a1;
+}
+
+.login-help a {
+  color: orange;
+  text-decoration: none;
+}
+
+.login-help a:hover {
+  text-decoration: underline;
+}
